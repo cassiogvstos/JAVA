@@ -45,6 +45,26 @@ public class Listagem{
             a = teclado.nextLine();
             p.setNumRegistro(a);
         }
+        else if (op ==2){
+            Aluno a = new Aluno();
+            String b;
+            
+            System.out.println("Digite o nome do Aluno: ");
+            b = teclado.nextLine();
+            a.setNome(b);
+            System.out.println("Digite o CPF do Aluno:  ");
+            b = teclado.nextLine();
+            a.setCPF(b);
+            System.out.println("Digite o RG do Aluno:   ");
+            a = teclado.nextLine();
+            a.setRG(b);
+            System.out.println("Digite a data de Nascimento do Aluno: ");
+            a = teclado.nextLine();
+            a.setDataNasc(b);
+            System.out.println("Digite o número de registro do Aluno: ");
+            a = teclado.nextLine();
+            a.setNumRegistro(b);
+        }
     }      
     public void listarpessoa(Pessoa x){
         System.out.println("Nome: "              +x.getNome());
