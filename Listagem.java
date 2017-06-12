@@ -43,5 +43,6 @@ public class Listagem{
     
     public void listarTurma(List<Turma> turmas){
         System.out.println("Pessoas na Turma: " +t.getNomeTurma());
+        listarpessoa(t);
     }
 }
