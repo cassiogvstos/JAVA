@@ -1,9 +1,12 @@
 package javaapplication3;
 import java.util.List;
 import java.util.LinkedList;
+public class Listagem(){
+
+public static void main(String args[]){
+
 
 public class Listagem {
-    private String Nome,DataNasc,CPF,RG;
     private List<Pessoa> pessoa;
     private String RaAluno;
     
@@ -52,4 +55,6 @@ public class Listagem {
         
         public Professor getProfessor(){return pessoa;}
         public int getNRegistro(){return regist;}
+}
+}
 }
