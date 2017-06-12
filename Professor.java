@@ -6,6 +6,6 @@ public class Professor extends Pessoa {
         System.out.println("\nProfessor Criado");
     }
 
-    public void getNumRegistro  (String n){NumRegistro    = n;}
-    public String setNumRegistro(String n){return NumRegistro;}
+    public void setNumRegistro  (String n){NumRegistro    = n;}
+    public String getNumRegistro(String n){return NumRegistro;}
 }

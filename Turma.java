@@ -1,12 +1,12 @@
 package javaapplication3.JAVA;
 
 public class Turma {
-    private Professor Professor;
-    private String NomeTurma;
+    private Professor professor;
+    private String nomeTurma;
     
     public Turma(Professor p){
-        p = Professor;
+        p = professor;
     }
-    public void getNomeTurma (String t){NomeTurma = t;}
-    public String setNomeTurma (String t){return NomeTurma;}
+    public void setNomeTurma (String t){nomeTurma = t;}
+    public String getNomeTurma (String t){return nomeTurma;}
 }

@@ -22,7 +22,7 @@ public class Listagem{
             System.out.println("7 – Sair");
             op = teclado.nextInt(); teclado.nextLine();
         }while(op != 7);
-            
+    }      
     public void listarpessoa(Pessoa x){
         System.out.println("Nome: "              +x.getNome());
         System.out.println("CPF: "               +x.getCPF());
@@ -42,8 +42,6 @@ public class Listagem{
     }
     
     public void listarTurma(List<Turma> turmas){
-        System.out.println("Pessoas na Turma: " +t.get);
+        System.out.println("Pessoas na Turma: " +t.getNomeTurma());
     }
-
-
 }
