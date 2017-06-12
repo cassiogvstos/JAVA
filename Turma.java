@@ -8,5 +8,5 @@ public class Turma {
         p = professor;
     }
     public void setNomeTurma (String t){nomeTurma = t;}
-    public String getNomeTurma (String t){return nomeTurma;}
+    public String getNomeTurma (){return nomeTurma;}
 }
