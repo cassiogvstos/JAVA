@@ -10,11 +10,11 @@ public class Listagem{
     }
 
     public void listarpessoa(Pessoa x){
-        System.out.println("Nome do: "                        +x.getPessoa().getNome());
-        System.out.println("CPF do: "                          +x.getPessoa().getCPF());
-        System.out.println("RG do: "                            +x.getPessoa().getRG());
-        System.out.println("Data de Nascimento do: "      +x.getPessoa().getDataNasc());
-        System.out.println("Numero de Registro do: "+x.getProfessor()+x.getNRegistro());
+        System.out.println("Nome: "              +x.getNome());
+        System.out.println("CPF: "               +x.getCPF());
+        System.out.println("RG: "                +x.getRG());
+        System.out.println("Data de Nascimento: "+x.getDataNasc());
+        System.out.println("\n");
     }
 
     public void listarAlunos(List<Alunos> alunos){
