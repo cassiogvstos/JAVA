@@ -27,17 +27,23 @@ public class Listagem{
         
         if(op == 1){
             Professor p = new Professor();
+            String a;
             
             System.out.println("Digite o nome do professor: ");
+            a = teclado.nextLine();
             p.setNome(a);
             System.out.println("Digite o CPF do professor:  ");
+            a = teclado.nextLine();
             p.setCPF(a);
             System.out.println("Digite o RG do professor:   ");
+            a = teclado.nextLine();
             p.setRG(a);
             System.out.println("Digite a data de Nascimento do professor: ");
+            a = teclado.nextLine();
             p.setDataNasc(a);
             System.out.println("Digite o número de registro do professor: ");
-            p.setNumRegistro(n);
+            a = teclado.nextLine();
+            p.setNumRegistro(a);
         }
     }      
     public void listarpessoa(Pessoa x){
