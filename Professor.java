@@ -2,7 +2,7 @@ package javaapplication3;
 public class Professor extends Pessoa {
     public String NumRegistro;
     
-    public Professor(Professor p, int q){
+    public Professor(){
         System.out.println("\nProfessor Criado");
     }
 
